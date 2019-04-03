@@ -271,7 +271,7 @@
 }
 
 \newcommand\idphoto{
-  \tikz\path[fill overzoom image={\@photo}]circle[radius=0.5\linewidth];
+  \tikz\path[fill stretch image={\@photo}] rectangle (0.5, \linewidth);
 }
 
 % Define social entries to print in header
