@@ -271,7 +271,7 @@
 }
 
 \newcommand\idphoto{
-  \tikz\path[fill stretch image={\@photo}] rectangle (0.5, \linewidth);
+  \tikz\path[fill overzoom image={\@photo}]circle[radius=0.5\linewidth];
 }
 
 % Define social entries to print in header
@@ -389,7 +389,7 @@
 %                    }
 %                    {<Technology list>}
 \newcommand\experience[7]{
-  \textbf{#1}    & \textbf{#2, \textsc{#3}, #4}   								\\*
+  \textbf{#1}    & \textbf{#2 \textsc{#3} #4}   								\\*
   \textbf{#5}    & \begin{minipage}[t]{\rightcolumnlength}
   					         #6
                    \end{minipage}										\\*
@@ -406,7 +406,7 @@
 %                    }
 %                    {<Technology list>}
 \newcommand\consultantexperience[9]{
-  \textbf{#1}    & \textbf{#2, \textsc{#3}, #4}   								\\*
+  \textbf{#1}    & \textbf{#2 \textsc{#3} #4}   								\\*
   \textbf{#5}    & \emph{#6} pour \textsc{#7}                       				\\*
   				       & 	\begin{minipage}[t]{\rightcolumnlength}
   						        #8
@@ -480,4 +480,3 @@
     \end{tabular}
   \end{minipage}%
 }
-
