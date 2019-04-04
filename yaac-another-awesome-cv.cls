@@ -19,7 +19,8 @@
 
 \ProvidesClass{yaac-another-awesome-cv}[2018/10/17  v1.10.2 'YAAC: Another Awesome CV' Class]
 
-\LoadClass[a4paper]{article}
+% \LoadClass[a4paper]{article}
+\LoadClass[letterpaper]{article}
 
 \newif\if@showLinks   \@showLinksfalse
 
@@ -166,7 +167,8 @@
 \setlength{\leftcolumn}{2.5cm}
 
 % Font Awesome icons aliases
-\newcommand{\mailSymbol}{\faAt}
+% \newcommand{\mailSymbol}{\faAt}
+\newcommand{\mailSymbol}{\faEnvelope}
 \newcommand{\locationSymbol}{\faMapMarker*}
 \newcommand{\infoSymbol}{\faInfo}
 \newcommand{\linkedinSymbol}{\faLinkedinIn}
