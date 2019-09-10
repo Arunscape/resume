@@ -254,7 +254,7 @@
 
 % Render a website link (optional)
 % Usage: \website{<website name>}{<website adress>}
-\newcommand*{\website}[2]{\sociallink{\websiteSymbol}{#1}{#2}}
+\newcommand*{\website}[2]{\sociallink{\websiteSymbol}{https://#2}{#2}}
 
 % Render author's mobile phone (optional)
 % Usage: \smartphone{<mobile phone number>}
