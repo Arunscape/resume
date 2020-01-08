@@ -1,0 +1,79 @@
+%basic cover letter template
+\documentclass{letter}
+\usepackage{amssymb,amsmath}
+\usepackage{graphicx}
+
+\oddsidemargin=.2in
+\evensidemargin=.2in
+\textwidth=5.9in
+\topmargin=-.5in
+\textheight=9in
+
+%\address{Mathematics Department\\University of Illinois\\
+%1409 W. Green St\\Urbana, Illinois 61801}
+
+\newcommand {\qed}{\mbox{$\Box$}}
+\renewcommand {\iff}{\Longleftrightarrow}
+\newcommand {\R}{\mathbb{R}}
+\newcommand {\N}{\mathbb{N}}
+\newcommand {\Q}{\mathbb{Q}}
+\newcommand {\Z}{\mathbb{Z}}
+
+\newcommand {\sub}{\mbox{SB}}
+
+\usepackage{hyperref}
+
+\input{variables.tex}
+
+\begin{document}
+\input{companyaddress.tex}
+
+\opening{Dear \DEARPERSON}
+%say what job are you are for:
+I am writing to express my interest in 
+the {\POSITION} position at \COMPANYNAME.
+%I am writing to be considered for
+%I am writing to apply for (Name of job here).
+%who are you?
+I am a {\CURRENTYEAR}th year student in the
+Computer Software Engineering Co-op program at the University of Alberta.
+Starting {\STARTAVAILABLE}, I am available for a {\TERMLENGTH} position.
+
+I feel that this is an excellent opportunity to work with a progressive
+organization that provides quality training and hands-on experience.
+\input{interestingthinguniquetothecompany.tex}
+
+I am always looking to learn something new. During my last job at
+ATB Financial, I was part of an agile team that worked on the new
+online banking platform for business customers. I had the pleasure of learning
+how to leverage several technologies, such as React, Redux, Google Cloud
+Platform, Docker, and Jenkins to name a few. I also had the opportunity to 
+mentor a team of students and recent graduates to solve a business case
+problem. These opportunities have taught me how to work in an agile team,
+meet deadlines, not being afraid of failures, and having fun.
+
+%tell them what application materials you have submitted and where
+I will be available to commence employment starting {\STARTAVAILABLE},
+but I am available for an interview immediately. I can be contacted at the
+e-mail address or phone number below. Thank you for taking the time to consider
+my application. I look forward to further discussing how I can make a positive
+contribution to \COMPANYNAME.
+
+\closing{Sincerely,
+%\includegraphics[width=6cm]{signature.pdf}
+}
+%I made a pdf file of my signature using the scanner, so that all the cover letters I sent
+%electronically were "signed."  
+
+Arun Woosaree\\
+4th Year Computer Software Engineering Student\\
+University of Alberta\\
+%1409 West Green Street\\
+Edmonton, Alberta\\
+\PHONENUMBER\\arun@woosaree.xyz\\
+\url{github.com/Arunscape}\\
+\url{arun.woosaree.xyz}
+\end{letter}
+
+\end{document}
+
