@@ -274,6 +274,7 @@
 
 \newcommand\idphoto{
   \tikz\path[fill overzoom image={\@photo}]circle[radius=0.5\linewidth];
+%  \includegraphics*[width=2.5cm]{\@photo}
 }
 
 % Define social entries to print in header
